@@ -76,8 +76,7 @@ xiao_fishing 是一款用于 Windows 系统的钓鱼演练工具，采用服务�
 1. 编译并运行客户端：
 
    ```
-   go run client.go
-   或go build -ldflags -H=windowsgui client.go
+   go build -ldflags -H=windowsgui client.go
    ```
 
    客户端将会收集网络信息并捕获屏幕截图，然后将数据发送到服务端。
