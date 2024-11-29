@@ -76,7 +76,7 @@ func main() {
 
     // 打印网络信息
     for _, info := range networkInfos {
-        fmt.Printf("上钩时间: %s, IPv4 地址: %s, Mac地址: %s, 网口描述: %s, 主机名: %s\n", info.Time, info.IPv4Address, info.MacAddress, info.Interface, info.Hostname)
+        fmt.Printf("点击时间: %s, IPv4 地址: %s, Mac地址: %s, 网口描述: %s, 主机名: %s\n", info.Time, info.IPv4Address, info.MacAddress, info.Interface, info.Hostname)
     }
 
     // 连接服务端
