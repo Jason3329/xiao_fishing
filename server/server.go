@@ -20,6 +20,7 @@ func printBanner() {
 	fmt.Println("========================================")
 	fmt.Println("           xiao_fishing Server          ")
 	fmt.Println("      Phishing Drill - Listening...     ")
+        fmt.Println("https://github.com/Jason3329/xiao_fishing")
 	fmt.Println("             author:  A Xiao              ")
 	fmt.Println("========================================")
 }
